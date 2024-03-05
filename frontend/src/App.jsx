@@ -10,7 +10,7 @@ import { useAuthContext } from './context/AuthContext';
 function App() {
   const { authUser } = useAuthContext();
   return (
-    <div className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-4 h-screen flex items-center justify-center'>
+    <div className='bg-gradient-to-r from-[#232322] via-[#cececc] to-[#eaeae5] p-4 h-screen flex items-center justify-center'>
       <Routes>
         <Route
           path='/'
